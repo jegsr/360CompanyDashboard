@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewBag.Title = "Compras";
+    ViewBag.PageName = "Compras";
+}
+
+<div class="right_col" role="main">
+    <br />
+    <div class="row">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Total de Custos </h2>
+                        <ul style="" class="nav navbar-right panel_toolbox">
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li>
+                                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <div id="echart_line" style="height:350px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Artigos Comprados </h2>
+                        <ul class="nav navbar-right panel_toolbox">
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li>
+                                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <table id="datatable-buttons_ProdutosFornecedor" class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Nome Fornecedor</th>
+                                    <th>Artigo</th>
+                                    <th>Quantidade</th>
+                                </tr>
+                            </thead>
+
+
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row ">
+            <div id="dashboard_custo_produto" class="col-md-6 col-sm-12 col-xs-12 cursor-pointer">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Custo dos Produtos </h2>
+                        <ul style="" class="nav navbar-right panel_toolbox">
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li>
+                                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+                        </ul>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+
+                        <div id="echart_pie_custoProduto" style="min-height:350px;"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="dashboard_gasto_fornecedor" class="col-md-6 col-sm-12 col-xs-12 cursor-pointer">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Gastos por Fornecedor </h2>
+                        <ul style="" class="nav navbar-right panel_toolbox">
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li><a> </a></li>
+                            <li>
+                                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="x_content">
+
+                        <div id="echart_pie2_gastoFornecedor" style="min-height:350px;"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+    </div>
+    <!-- /page content -->
+    <!-- footer content -->
+    <footer>
+        <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+    <!-- /footer content -->
+</div>
+

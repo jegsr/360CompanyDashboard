@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LEISIO.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Empresa" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LEISIO</Value>
+    </Setting>
+    <Setting Name="User" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">admin</Value>
+    </Setting>
+    <Setting Name="Pass" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">admin</Value>
+    </Setting>
+    <Setting Name="ze" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ze</Value>
+    </Setting>
+    <Setting Name="rodrigo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">rodrigo</Value>
+    </Setting>
+    <Setting Name="tiago" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">tiago</Value>
+    </Setting>
+    <Setting Name="luis" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">luis</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

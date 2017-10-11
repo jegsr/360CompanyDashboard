@@ -1,0 +1,205 @@
+﻿
+@{
+    ViewBag.Title = "Geral";
+    ViewBag.PageName = "Home";
+}           
+
+            <div class="right_col" role="main">
+                <br />
+                <div class="row">                    
+                    <div id="dashboard_financas" class="col-md-12 col-sm-12 col-xs-12 cursor-pointer">
+                        <div class="dashboard_graph">
+                            <div class="row x_title">
+                                <div class="col-md-12">
+                                    <h3>Finanças</h3>
+                                </div>
+                            </div>
+
+                            <div class="row tile_count">
+                                <div id="liquidezGeral" class="col-md-2 col-sm-4 col-xs-6 tile_stats_count col-md-offset-1">
+                                    <span class="count_top"><i class="fa fa-user"></i> Liquidez Geral</span>
+                                    <div class="count"></div>
+                                   
+                                </div>
+                                <div id="faturacao" class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                                    <span class="count_top"><i class="fa fa-clock-o"></i> Faturação</span>
+                                    <div class="count"></div>
+                                   
+                                </div>
+                                <div id="roa" class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                                    <span class="count_top"><i class="fa fa-user"></i> ROA</span>
+                                    <div class="count"></div>
+                                    
+                                </div>
+                                <div id="autoFinanceira" class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                                    <span class="count_top"><i class="fa fa-user"></i> Autonimia Financeira</span>
+                                    <div class="count"></div>
+                                    
+                                </div>
+                                <div id="roe" class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                                    <span class="count_top"><i class="fa fa-user"></i> ROE</span>
+                                    <div class="count"></div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div id="dashboard_vendas" class="col-md-12 col-sm-12 col-xs-12 cursor-pointer">
+                        <div class="dashboard_graph">
+                            <div class="row x_title">
+                                <div class="col-md-12">
+                                    <h3>Vendas</h3>
+                                </div>
+                            </div>
+
+                            <div class="row tile_count">
+                                <div id="totalVendas" class="col-md-2 col-sm-4 col-xs-7 tile_stats_count col-md-offset-2">
+                                    <span class="count_top"><i class="fa fa-user"></i> Total de Vendas</span>
+                                    <div class="count"></div>
+                                    
+                                </div>
+                                <div id="pmRecebimentos" style="padding-left: 25px" class="col-md-3 col-sm-5 col-xs-7 tile_stats_count">
+                                    <span class="count_top"><i class="fa fa-clock-o"></i> Prazo Médio de Recebimentos</span>
+                                    <div class="count"></div>
+                                    
+                                </div>
+                                <div id="rentabilidadeVendas" style="padding-left: 25px" class="col-md-3 col-sm-5 col-xs-7 tile_stats_count">
+                                    <span class="count_top"><i class="fa fa-user"></i> Rentabilidade de Vendas</span>
+                                    <div class="count"></div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div id="dashboard_compras" class="col-md-7 col-sm-12 col-xs-12 cursor-pointer">
+                        <div class="dashboard_graph">
+                            <div class="row x_title">
+                                <div class="col-md-7">
+                                    <h3>Compras</h3>
+                                </div>
+                            </div>
+
+                            <div class="row tile_count">
+                                <div id="totalCompras" style="padding-left: 25px" class="col-md-4 col-sm-5 col-xs-7 tile_stats_count col-md-offset-2">
+                                    <span class="count_top"><i class="fa fa-user"></i> Total de Compras</span>
+                                    <div class="count"></div>
+                                    
+                                </div>
+                                <div id="pmPagamentos" class="col-md-4 col-sm-6 col-xs-7 tile_stats_count">
+                                    <span class="count_top"><i class="fa fa-clock-o"></i> Prazo Médio de Pagamentos</span>
+                                    <div class="count"></div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+
+
+
+                    <div id="dashboard_stock" class="col-md-5 col-sm-12 col-xs-12 cursor-pointer">
+                        <div class="dashboard_graph">
+                            <div class="row x_title">
+                                <div class="col-md-4">
+                                    <h3>Stock</h3>
+                                </div>
+                            </div>
+
+                            <div class="row tile_count">
+                                <div id="valorStock" class="col-md-5 col-sm-5 col-xs-7 tile_stats_count col-md-offset-4">
+                                    <span class="count_top"><i class="fa fa-user"></i> Valor em Stock</span>
+                                    <div class="count"></div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row ">
+                    <div id="dashboard_top_produto" class="col-md-6 col-sm-12 col-xs-12 cursor-pointer">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>Top Produtos<small>O Top 10 artigos que mais vendemos<small></h2>
+                                <ul style="" class="nav navbar-right panel_toolbox">
+                                    <li><a> </a></li>
+                                    <li><a> </a></li>
+                                    <li><a> </a></li>
+                                    <li><a> </a></li>
+                                    <li>
+                                        <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                </ul>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+
+                                <div id="echart_pie_top_produto" style="min-height:350px;"></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="dashboard_top_cliente" class="col-md-6 col-sm-12 col-xs-12 cursor-pointer ">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>Top Clientes <small>O Top 10 clientes que mais compram produtos</small></h2>
+                                <ul style="" class="nav navbar-right panel_toolbox">
+                                    <li><a> </a></li>
+                                    <li><a> </a></li>
+                                    <li><a> </a></li>
+                                    <li><a> </a></li>
+                                    <li>
+                                        <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+
+                            <div class="x_content">
+
+                                <div id="echart_pie2_top_cliente" style="min-height:350px;"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div id="dashboard_top_fornecedor" class="col-md-6 col-sm-12 col-xs-12 cursor-pointer col-md-offset-3">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>Top Fornecedor <small>O Top 10 fornecedores que mais compramos artigos</small></h2>
+                                <ul style="" class="nav navbar-right panel_toolbox">
+                                    <li><a> </a></li>
+                                    <li><a> </a></li>
+                                    <li><a> </a></li>
+                                    <li><a> </a></li>
+                                    <li>
+                                        <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <div id="echart_donut_top_fornecedor" style="height:350px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
